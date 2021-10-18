@@ -16,12 +16,80 @@
       href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
     <link rel="stylesheet" href="./css/style.css" />
     <title>Blogr</title>
   </head>
-  <body>
+  <body id="page-top">
+    <header class="w-100 rounded-left py-5 px-3 px-lg-5">
+      <!-- Navigation -->
+      <nav class=" navbar navbar-expand-lg py-3 mt-6 ubuntu mx-lg-5 px-xl-4">
+        <div class="container px-xl-5">
+          <a href="#page-top">
+            <img class="" src="./images/logo.svg" alt="logo">
+          </a>
+          <button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="./images/icon-hamburger.svg" alt="menu-icon">
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-lg-5 text flex align-items-center">
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link text-white dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                Product
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Overview</a></li>
+                <li><a class="dropdown-item" href="#">Pricing</a></li>
+                <li><a class="dropdown-item" href="#">Marketplace</a></li>
+                <li><a class="dropdown-item" href="#">Features</a></li>
+                <li><a class="dropdown-item" href="#">Integrations</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link text-white dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                Company
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li><a class="dropdown-item" href="#">Team</a></li>
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+                <li><a class="dropdown-item" href="#">Careers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link text-white dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                Connect
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+                <li><a class="dropdown-item" href="#">Newsletter</a></li>
+                <li><a class="dropdown-item" href="#">LinkedIn</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto text flex align-items-center">
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="#">Login</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a style="color:hsl(353, 100%, 62%)" class="nav-link py-2 px-4 bg-white rounded-pill fw-bold ubuntu" href="#" tabindex="-1" aria-disabled="true">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
 
+      <!-- Hero -->
+        <div class="container hero px-3 px-lg-5 overpass text-white mt-xl-5 pt-5 pt-lg-2 pt-xl-5 h-auto">
+          <div class="row gx-4 gx-lg-5 h-auto align-items-center justify-content-center text-center pt-1">
+            <h1 class="fw-bold mt-3 mb-3">A modern publishing platform</h1>
+            <p class="text-white-75 mb-5 fs-5">Grow your audience and build your online brand</p>
+            <div class="flex align-items-center justify-content-center">
+              <button style="color:hsl(353, 100%, 62%)" class="btn btn-xl rounded-pill py-2 fw-bold px-3 m-2 ubuntu bg-white h-50">Start For Free</button>
+              <button class="btn btn-xl rounded-pill ubuntu text-white py-2 fw-bold px-3 border border-white m-2 h-50">Learn More</button>
+            </div>
+          </div>
+      </div>
+    </header>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   </body>
