@@ -91,13 +91,39 @@ header {
 
 @media (min-width: 1200px) {
   .editor-img {
-    top: -8.7rem;
+    margin-top: -8.7rem;
     right: -4.5rem;
   }
   .editor-img img {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+  }
+}
+
+.blue-box {
+  background: url(../images/bg-pattern-circles.svg), #3a3d5c;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  z-index: 1;
+  border-bottom-left-radius: 6rem;
+  border-top-right-radius: 6rem;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.blue-box .phone-img {
+  margin-top: -4.5rem;
+}
+
+.blue-box .phone-img img {
+  max-width: 35rem;
+}
+
+@media (min-width: 1200px) {
+  .blue-box {
+    height: 41.5vh;
+    margin-top: 3.6rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
