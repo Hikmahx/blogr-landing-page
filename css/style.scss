@@ -28,3 +28,49 @@ html{
   font-family: 'Overpass', sans-serif;
 }
   
+header{
+  min-height: 103vh;
+  @media(min-width: 900px){
+    min-height: 69vh;
+    background-position: 25% 52%;
+    background-size: auto;
+  }
+  background: url(../images/bg-pattern-intro.svg), linear-gradient(90deg, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  background-position: 44% 34%;
+  background-size: 248%;
+  border-bottom-left-radius: 6rem;
+}
+
+.navbar-collapse{
+  @media(max-width:995px){
+    background-color: $grayish-blue;
+    position: fixed;
+    width: 80%;
+    padding: 2rem 0;
+    top: 6rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition:  0.4s ease-in-out;
+    color: $very-dark-blue;
+  }
+}
+
+.navbar-toggler{
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.hero{
+  h1{
+    font-size: 2.2rem;
+  }
+
+  @media(min-width:900px){
+    h1{
+      font-size: 3.8rem;
+    }
+  }
+}
