@@ -31,7 +31,7 @@ html{
 header{
   min-height: 103vh;
   @media(min-width: 900px){
-    min-height: 69vh;
+    min-height: 62.2vh;
     background-position: 25% 52%;
     background-size: auto;
   }
@@ -53,6 +53,7 @@ header{
     margin: auto;
     transition:  0.4s ease-in-out;
     color: $very-dark-blue;
+    z-index: 1;
   }
 }
 
@@ -71,6 +72,33 @@ header{
   @media(min-width:900px){
     h1{
       font-size: 3.8rem;
+    }
+  }
+}
+
+.dark-blue-text{
+  color: $very-dark-blue;
+}
+
+.dark-grayish-blue-text{
+  color: $very-dark-grayish-blue;
+}
+
+.editor-img{
+  img{
+    max-width: 27rem;
+    width: 100%;
+  }
+  @media(min-width:1000px){
+    img{
+      max-width: none;
+    }
+  }
+    @media(min-width:1200px){
+    top: -8.7rem;
+    right: -4.5rem;
+    img{
+      width: max-content;
     }
   }
 }

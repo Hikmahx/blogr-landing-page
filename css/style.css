@@ -31,7 +31,7 @@ header {
 
 @media (min-width: 900px) {
   header {
-    min-height: 69vh;
+    min-height: 62.2vh;
     background-position: 25% 52%;
     background-size: auto;
   }
@@ -50,6 +50,7 @@ header {
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
     color: #1f3f5b;
+    z-index: 1;
   }
 }
 
@@ -66,6 +67,37 @@ header {
 @media (min-width: 900px) {
   .hero h1 {
     font-size: 3.8rem;
+  }
+}
+
+.dark-blue-text {
+  color: #1f3f5b;
+}
+
+.dark-grayish-blue-text {
+  color: #4b5862;
+}
+
+.editor-img img {
+  max-width: 27rem;
+  width: 100%;
+}
+
+@media (min-width: 1000px) {
+  .editor-img img {
+    max-width: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .editor-img {
+    top: -8.7rem;
+    right: -4.5rem;
+  }
+  .editor-img img {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
   }
 }
 /*# sourceMappingURL=style.css.map */
