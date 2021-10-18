@@ -126,4 +126,26 @@ header {
     margin-top: 3.6rem;
   }
 }
+
+.laptop-img img {
+  max-width: 27rem;
+  width: 100%;
+}
+
+@media (min-width: 1000px) {
+  .laptop-img img {
+    max-width: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .laptop-img {
+    left: -22rem;
+  }
+  .laptop-img img {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+}
 /*# sourceMappingURL=style.css.map */
