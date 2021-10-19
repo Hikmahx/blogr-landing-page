@@ -141,5 +141,13 @@ header{
       width: max-content;
     }
   }
+}
 
+footer{
+  background:$very-dark-black-blue;
+  border-top-right-radius: 6rem;
+}
+
+.grayish-blue{
+  color: $grayish-blue;
 }

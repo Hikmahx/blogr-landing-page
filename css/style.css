@@ -148,4 +148,13 @@ header {
     width: max-content;
   }
 }
+
+footer {
+  background: #25252d;
+  border-top-right-radius: 6rem;
+}
+
+.grayish-blue {
+  color: #c8c8cb;
+}
 /*# sourceMappingURL=style.css.map */
