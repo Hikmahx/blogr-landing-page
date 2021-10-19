@@ -60,6 +60,44 @@ header {
           box-shadow: none;
 }
 
+.bg-white:hover {
+  background: #ff7a85 !important;
+  color: #fff !important;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.dropdown {
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  cursor: pointer;
+}
+
+.dropdown::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 2px;
+  background: #fff;
+}
+
+.dropdown:hover::after {
+  width: 100%;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.border-white:hover {
+  background: #fff !important;
+  color: #ff525d !important;
+}
+
 .hero h1 {
   font-size: 2.2rem;
 }
@@ -152,6 +190,32 @@ header {
 footer {
   background: #25252d;
   border-top-right-radius: 6rem;
+}
+
+footer li {
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  cursor: pointer;
+}
+
+footer li::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 2px;
+  background: #fff;
+}
+
+footer li:hover::after {
+  width: 100%;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .grayish-blue {
